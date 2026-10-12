@@ -1,0 +1,13 @@
+{
+  "name": "monitor-sap",
+  "version": "1.0.0",
+  "description": "Receive and display HTTP POST payloads sent from SAP (replacement for webhook.site)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
